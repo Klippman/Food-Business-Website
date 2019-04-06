@@ -91,15 +91,13 @@ $(document).ready(function() {
         let nav = $('.js--main-nav');
         let icon = $('.js--nav-icon ion-icon');
 
-        if (icon.hasClass('menu')) {
-            icon.addClass('close-circle-outline');
-            icon.removeClass('menu');
-        } else {
-            icon.addClass('menu');
-            icon.removeClass('close-circle-outline');
-        }
-
         nav.slideToggle(200);
-    })
+
+        if (icon.has('name')) {
+            icon.attr('name', 'close-circle-outline');
+        } else {
+            icon.attr('name', 'menu');
+        }
+    });
 
 });

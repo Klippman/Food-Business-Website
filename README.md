@@ -1,4 +1,4 @@
 # Food-Business-Website
 Fictitious food delivery business.
 
-![Settings Window](/Omnifood/resources/img/pic_1.png)
+![Settings Window](./resources/img/pic_1.png)

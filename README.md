@@ -1,5 +1,5 @@
 # Food-Business-Website
-Fictitious food delivery business.
+Fictitious food delivery business. Website is responsive across all platforms and was created using html5, CSS3 and jQuery for the animations and interactivity. 
 
 ![Settings Window](./resources/img/pic_1.png)
 

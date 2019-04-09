@@ -86,18 +86,36 @@ $(document).ready(function() {
     });
 
 
-    /* Mobile Navigation */
+    /* Mobile Navigation Dropdown Menu */
     $('.js--nav-icon').click(function() {
         let nav = $('.js--main-nav');
-        let icon = $('.js--nav-icon ion-icon');
+        let icon = $('.js--nav-icon i');
 
         nav.slideToggle(200);
 
-        if (icon.has('name')) {
-            icon.attr('name', 'close-circle-outline');
+        if (icon.hasClass('ion-navicon-round')) {
+            icon.addClass('ion-android-close');
+            icon.removeClass('ion-navicon-round');
         } else {
-            icon.attr('name', 'menu');
+            icon.addClass('ion-navicon-round');
+            icon.removeClass('ion-android-close');
         }
+    });
+
+    $(window).resize(function(){
+        let nav = $('.js--main-nav');
+        let icon = $('.js--nav-icon i');
+        
+        if ($(window).width() > 767){
+            nav.css("display", "block");
+            icon.addClass('ion-android-close');
+            icon.removeClass('ion-navicon-round');
+        } else {
+            nav.css("display", "none");
+            icon.addClass('ion-navicon-round');
+            icon.removeClass('ion-android-close');
+        }
+        
     });
 
 });

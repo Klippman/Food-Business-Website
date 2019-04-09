@@ -193,7 +193,7 @@ input[type=submit]:active {
 
 header {
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/hero-min.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -446,7 +446,7 @@ cite img {
 
 .section-testimonials {
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/back-customers-min.jpg);
     background-size: cover;
     color: #fff;
 }

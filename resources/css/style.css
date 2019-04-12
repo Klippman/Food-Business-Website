@@ -521,6 +521,19 @@ cite img {
     width: 60%;
 }
 
+.error {
+    background-color: rgba(209, 46, 46, 0.8);
+}
+
+.form-messages {
+    border-radius: 3px;
+    color: #333;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 70%;
+}
+
 input[type=text],
 input[type=email],
 select,
@@ -533,6 +546,10 @@ textarea {
 
 input[type=checkbox] {
     margin: 12px 5px 12px 0;
+}
+
+.success {
+    background-color: rgba(38, 191, 68, 0.8);
 }
 
 /* --------------------------- */

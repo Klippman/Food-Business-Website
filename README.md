@@ -1,5 +1,5 @@
 # Food-Business-Website
-Fictitious food delivery business. Website is responsive across all devices and was created using html5, CSS3 and jQuery for the animations and interactivity. 
+Fictitious food delivery business. Website is responsive across all devices and was created using html5, CSS3 and jQuery for the animations and interactivity, while php activates the form portion. 
 
 ![Settings Window](./resources/img/pic_1.png)
 
